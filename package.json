@@ -1,0 +1,12 @@
+{
+  "name": "square-hearts-battle-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Square Hearts 기본 전투 웹 프로토타입 (PC 16:9)",
+  "scripts": {
+    "start": "npx --yes http-server . -p 8080 -c-1",
+    "test": "node --test tests/*.test.mjs",
+    "sim": "node tools/simulate.mjs"
+  }
+}
